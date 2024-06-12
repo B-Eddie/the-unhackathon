@@ -5,9 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Unhackathon</title>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
-
-    <!-- font -->
+    <script src="script.js" defer></script> <!-- Use defer to ensure script loads after the HTML -->
     <link href='https://fonts.googleapis.com/css?family=Bungee' rel='stylesheet'>
 </head>
 <body>
@@ -17,7 +15,7 @@
             <h1>THE UNHACKATHON</h1>
             <h3>BUILD YOUR WORST DREAMS.</h3>
         </div>
-        <form action="" method="post">
+        <form id="signup-form">
             <input type="email" name="email" placeholder="Sign up for the latest news" id="email" required>
             <input type="submit" value="Submit" id="submit">
         </form>
